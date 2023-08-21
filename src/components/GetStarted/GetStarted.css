@@ -1,0 +1,36 @@
+.getStartedContainer {
+    /* height: 99px; */
+    width: 813px;
+}
+
+.readyToWatch {
+    font-weight: 500;
+    color: white;
+}
+
+.customizedInput {
+    width: 350px;
+    height: 56px;
+    border: white solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #393d475e;
+    outline: none;
+    margin-right: 10px;
+
+}
+
+.getStartedButton {
+    width: 180px;
+    height: 58px;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+#emailInput {
+    display: flex;
+    flex-direction: row;
+}
