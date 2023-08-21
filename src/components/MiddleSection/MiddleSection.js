@@ -1,9 +1,9 @@
 import './MiddleSection.css'
 
-const MiddleSection = ( {title, paragraph, sectionImage} ) => {
+const MiddleSection = ( {title, paragraph, sectionImage, reverse} ) => {
     return (
         <>
-        <div className="middleSectionContainer">
+        <div className={`middleSectionContainer ${reverse ? "reverseMiddleSection": ""}`}>
             <div className="titleAndParagraph">
                 <h1 className='sectionTitle'>{title}</h1>
                 <p className='sectionParagraph'>{paragraph}</p>

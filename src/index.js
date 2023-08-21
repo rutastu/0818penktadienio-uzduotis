@@ -4,12 +4,14 @@ import './index.css';
 import Footer from './components/Footer/Footer'
 import Enjoy from './components/Enjoy/Enjoy';
 import WatchEverywhere from './components/WatchEverywhere/WatchEverywhere';
+import DownloadSection from './components/DownloadSection/DownloadSection';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Enjoy />
-    <WatchEverywhere/>
+    <DownloadSection />
+    <WatchEverywhere />
     <Footer />
   </React.StrictMode>
 );

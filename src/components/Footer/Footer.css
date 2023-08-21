@@ -7,6 +7,7 @@
     flex-direction: column;
     text-align: left;
     color:rgba(255,255,255,0.7);
+    max-width: 1300px;
 }
 
 a {

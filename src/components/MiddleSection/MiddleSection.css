@@ -38,3 +38,8 @@
     background-color: rgb(68, 68, 68);
     margin-top: 20px;
 }
+
+.reverseMiddleSection {
+    display: flex;
+    flex-direction: row-reverse;
+}
