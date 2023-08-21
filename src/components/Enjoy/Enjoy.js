@@ -1,5 +1,4 @@
 import MiddleSection from '../MiddleSection/MiddleSection'
-import './Enjoy.css'
 import Tv from './tv.png'
 
 const Enjoy = () => {

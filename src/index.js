@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Footer from './components/Footer/Footer'
 import Enjoy from './components/Enjoy/Enjoy';
+import WatchEverywhere from './components/WatchEverywhere/WatchEverywhere';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Enjoy />
+    <WatchEverywhere/>
     <Footer />
   </React.StrictMode>
 );
