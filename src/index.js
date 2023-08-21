@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Footer from './components/Footer/Footer'
-import GetStarted from './components/GetStarted/GetStarted'
+import Enjoy from './components/Enjoy/Enjoy';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <GetStarted />
+    <Enjoy />
     <Footer />
   </React.StrictMode>
 );

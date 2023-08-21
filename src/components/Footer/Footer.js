@@ -33,9 +33,9 @@ const Footer = () => {
                 <li><a href="">Legal Notices</a></li>
             </ul>
         </div>
-        <div class="dropdown">
-            <button class="dropbtn">🌐︎ English   ▾</button>
-                <div class="dropdown-content">
+        <div className="dropdown">
+            <button className="dropbtn">🌐︎ English   ▾</button>
+                <div className="dropdown-content">
                     <a href="#">English</a>
                 </div>
         </div>
