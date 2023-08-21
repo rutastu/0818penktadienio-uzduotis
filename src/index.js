@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer'
 import Enjoy from './components/Enjoy/Enjoy';
 import WatchEverywhere from './components/WatchEverywhere/WatchEverywhere';
 import DownloadSection from './components/DownloadSection/DownloadSection';
+import KidsProfiles from './components/KidsProfiles/KidsProfiles';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     <Enjoy />
     <DownloadSection />
     <WatchEverywhere />
+    <KidsProfiles />
     <Footer />
   </React.StrictMode>
 );
