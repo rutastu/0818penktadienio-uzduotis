@@ -1,0 +1,13 @@
+.sectionTitle, .sectionParagraph {
+    color: white;
+    text-align: left;
+}
+
+.sectionParagraph {
+    font-weight: 600;
+}
+
+.titleAndParagraph {
+    width: 580px;
+    height: 435px;
+}
