@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap);
+
+.footer {
+    margin-left: 5%;
+    margin-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    color:rgba(255,255,255,0.7);
+}
+
+a {
+    color:rgba(255,255,255,0.7);
+    font-weight: 400;
+    font-size:13px;
+    line-height: 2.5;
+}
+
+.questions a {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    }
+
+.container {
+    display: flex;
+}
+
+.dropbtn {
+    background-color: rgb(42, 38, 38);
+    color: white;
+    padding: 4px;
+    font-size: 16px;
+    border: 1px white solid;
+    border-radius: 5%;
+    width: 137px;
+  }
+  
+.dropdown {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 137px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    font-size: 16px;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    border: 2px white solid
+}
