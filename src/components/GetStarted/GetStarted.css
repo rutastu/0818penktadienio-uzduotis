@@ -1,6 +1,10 @@
 .getStartedContainer {
-    /* height: 99px; */
-    width: 813px;
+        width: 813px;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
 }
 
 .readyToWatch {
@@ -30,7 +34,7 @@
     font-weight: 600;
 }
 
-#emailInput {
+/* #emailInput {
     display: flex;
     flex-direction: row;
-}
+} */

@@ -6,10 +6,12 @@ import Enjoy from './components/Enjoy/Enjoy';
 import WatchEverywhere from './components/WatchEverywhere/WatchEverywhere';
 import DownloadSection from './components/DownloadSection/DownloadSection';
 import KidsProfiles from './components/KidsProfiles/KidsProfiles';
+import Banner from './components/Banner/Banner';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Banner />
     <Enjoy />
     <DownloadSection />
     <WatchEverywhere />
