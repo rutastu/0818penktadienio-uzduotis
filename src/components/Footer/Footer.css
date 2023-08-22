@@ -9,7 +9,7 @@
     max-width: 1300px;
 }
 
-a {
+.links a {
     color:rgba(255,255,255,0.7);
     font-weight: 400;
     font-size:13px;
@@ -19,6 +19,7 @@ a {
 .questions a {
     font-weight: 600;
     font-size: 15px;
+    color:rgba(255,255,255,0.7);
 }
 
 .links {
@@ -56,7 +57,7 @@ ul {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    width: 137px;
+    width: 136px;
     z-index: 1;
 }
 
@@ -70,7 +71,7 @@ ul {
 }
 
 .dropdown-content a:hover {
-    background-color: blue;
+    background-color: rgb(20, 20, 238);
     color: white;
 }
 

@@ -37,6 +37,7 @@ const Footer = () => {
             <button className="dropbtn">🌐︎ English   ▾</button>
                 <div className="dropdown-content">
                     <a href="#">English</a>
+                    <a href="#">українська</a>
                 </div>
         </div>
         <div className='country'>
