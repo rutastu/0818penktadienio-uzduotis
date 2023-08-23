@@ -1,0 +1,16 @@
+.FAQContainer {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1160px;
+    padding-top: 70px;
+    margin-bottom: 30px;
+}
+
+.FAQtitle{
+    font-size: 35pt;
+    color: white;
+    font-weight: 800;
+}
